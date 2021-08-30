@@ -1,7 +1,7 @@
 export const config = {
   /**
    * 服务环境：开发-development; 测试-test; 生产-production
-   * 请在.env.*文件中修改环境变量配置
+   * 请在.env.*文件中修改环境变量配置，比如.env.development
    * 您也可以通过docker配置环境变量
   */
   env: process.env.NODE_ENV || 'development',
